@@ -1,0 +1,841 @@
+Kind,Name,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethodPrivate,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,SumCyclomatic,ALTER
+Public Class,net.sf.mpxj.common.DateHelper,4,0,1,1,22,1,21,312,1,95,50,YES
+Public Class,net.sf.mpxj.common.FieldTypeHelper,16,0,0,0,6,1,5,236,1,0,34,YES
+Public Class,net.sf.mpxj.common.InputStreamHelper,1,0,0,0,3,1,2,77,1,0,13,YES
+Public Class,net.sf.mpxj.common.MPPAssignmentField,1,0,0,0,2,0,2,532,1,0,4,YES
+Public Class,net.sf.mpxj.common.MPPAssignmentField14,1,0,0,0,2,0,2,531,1,0,4,YES
+Public Class,net.sf.mpxj.common.MPPResourceField,1,0,0,0,2,0,2,575,1,0,4,YES
+Public Class,net.sf.mpxj.common.MPPResourceField14,1,0,0,0,2,0,2,576,1,0,4,YES
+Public Class,net.sf.mpxj.common.MPPTaskField,1,0,0,0,2,0,2,919,1,0,4,YES
+Public Class,net.sf.mpxj.common.MPPTaskField14,1,0,0,0,3,0,3,988,1,0,7,YES
+Public Class,net.sf.mpxj.common.ProjectFieldLists,1,0,0,0,0,0,0,16,1,0,0,YES
+Public Class,net.sf.mpxj.common.TaskFieldLists,1,0,0,0,0,0,0,511,1,0,0,YES
+Class,net.sf.mpxj.conceptdraw.NamespaceFilter,0,0,2,0,2,0,2,13,2,0,4,YES
+Public Class,net.sf.mpxj.CostRateTable,2,0,2,0,2,0,2,31,2,0,6,YES
+Public Class,net.sf.mpxj.CostRateTableEntry,4,0,10,6,10,1,9,60,1,61,10,YES
+Public Class,net.sf.mpxj.explorer.ObjectPropertiesController,2,0,8,1,8,6,2,132,1,75,25,YES
+Public Class,net.sf.mpxj.junit.CostRateTableTest,10,0,10,1,10,3,7,116,1,80,10,YES
+Public Class,net.sf.mpxj.junit.CustomerDataTest,19,0,24,7,24,12,12,355,1,90,60,YES
+Public Class,net.sf.mpxj.junit.MppEmbeddedTest,6,0,7,0,7,1,6,128,1,0,7,YES
+Public Class,net.sf.mpxj.junit.MppResourceTest,18,0,14,0,14,5,9,312,1,0,16,YES
+Public Class,net.sf.mpxj.LocaleData,5,0,1,0,2,0,2,2162,2,0,2,YES
+Abstract Class,net.sf.mpxj.mpd.MPD9AbstractReader,39,1,29,9,29,3,4,581,1,86,76,YES
+Public Class,net.sf.mpxj.mpd.MPDDatabaseReader,5,0,10,4,18,2,8,89,3,70,13,YES
+Class,net.sf.mpxj.mpp.AvailabilityFactory,5,0,1,0,1,0,1,30,1,0,4,YES
+Class,net.sf.mpxj.mpp.CostRateTableFactory,7,0,2,0,2,1,1,51,1,0,6,YES
+Class,net.sf.mpxj.mpp.CustomFieldAliasReader,4,0,2,2,2,0,2,35,1,0,5,YES
+Abstract Class,net.sf.mpxj.mpp.FieldMap,15,3,28,7,28,3,16,859,1,85,84,YES
+Class,net.sf.mpxj.mpp.FixedData,3,0,12,2,17,0,6,189,2,50,33,YES
+Class,net.sf.mpxj.mpp.MPP12Reader,58,0,33,19,33,32,1,1199,1,82,149,YES
+Class,net.sf.mpxj.mpp.MPP14Reader,62,0,34,20,34,33,1,1363,1,83,163,YES
+Class,net.sf.mpxj.mpp.MPP8Reader,44,0,18,7,18,17,1,1153,1,64,87,YES
+Class,net.sf.mpxj.mpp.MPP9Reader,63,0,33,14,33,30,3,1605,1,78,183,YES
+Public Class,net.sf.mpxj.mpp.MPPReader,12,0,16,6,25,1,15,190,3,88,30,YES
+Public Class,net.sf.mpxj.mpp.ProjectPropertiesReader,11,0,1,0,1,0,1,96,1,0,6,YES
+Class,net.sf.mpxj.mpp.Props,2,5,12,1,17,0,12,182,2,0,22,YES
+Public Class,net.sf.mpxj.mpp.ResourceAssignmentFactory,32,0,3,0,3,2,1,311,1,0,33,YES
+Public Class,net.sf.mpxj.mpp.RTFEmbeddedObject,2,0,8,3,13,7,6,211,1,74,36,YES
+Class,net.sf.mpxj.mpp.TableFactory,8,0,3,3,3,1,2,99,1,33,14,YES
+Class,net.sf.mpxj.mpp.TableFactory14,8,0,3,3,3,1,2,98,1,33,14,YES
+Class,net.sf.mpxj.mpp.TimephasedDataFactory,16,0,6,0,6,1,5,296,1,0,39,YES
+Class,net.sf.mpxj.mpp.VarMeta12,0,0,1,0,17,0,0,35,3,0,5,YES
+Class,net.sf.mpxj.mpp.VarMeta9,1,0,1,0,17,0,0,35,3,0,4,YES
+Public Class,net.sf.mpxj.mpx.MPXWriter,42,0,43,10,45,37,6,956,2,80,154,YES
+Public Class,net.sf.mpxj.mspdi.MSPDIReader,107,0,48,6,57,43,6,1294,3,90,181,YES
+Public Class,net.sf.mpxj.mspdi.MSPDIWriter,99,0,49,8,51,39,9,1540,2,87,196,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter18,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter19,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter20,2,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter21,2,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter22,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.Adapter4,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.mspdi.schema.TimephasedDataType,1,0,12,6,12,0,12,57,1,83,12,YES
+Public Class,net.sf.mpxj.phoenix.DatatypeConverter,6,0,0,0,18,0,18,183,1,94,28,YES
+Public Class,net.sf.mpxj.planner.schema.Allocation,0,0,6,3,6,0,6,30,1,66,6,YES
+Public Class,net.sf.mpxj.planner.schema.Calendar,3,0,11,6,11,0,11,57,1,83,12,YES
+Public Class,net.sf.mpxj.planner.schema.Constraint,0,0,4,2,4,0,4,21,1,50,4,YES
+Public Class,net.sf.mpxj.planner.schema.Day,0,0,7,4,7,0,7,39,1,75,8,YES
+Public Class,net.sf.mpxj.planner.schema.DayType,0,0,7,4,7,0,7,39,1,75,8,YES
+Public Class,net.sf.mpxj.planner.schema.DefaultWeek,0,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.planner.schema.Group,0,0,10,5,10,0,10,48,1,80,10,YES
+Public Class,net.sf.mpxj.planner.schema.Interval,0,0,4,2,4,0,4,21,1,50,4,YES
+Public Class,net.sf.mpxj.planner.schema.ListItem,0,0,2,1,2,0,2,12,1,0,2,YES
+Public Class,net.sf.mpxj.planner.schema.ObjectFactory,27,0,28,0,28,0,28,114,1,0,28,YES
+Public Class,net.sf.mpxj.planner.schema.OverriddenDayType,0,0,3,2,3,0,3,21,1,50,4,YES
+Public Class,net.sf.mpxj.planner.schema.Phase,0,0,2,1,2,0,2,12,1,0,2,YES
+Public Class,net.sf.mpxj.planner.schema.Predecessor,0,0,8,4,8,0,8,46,1,75,9,YES
+Public Class,net.sf.mpxj.planner.schema.Project,6,0,27,14,27,0,27,129,1,92,28,YES
+Public Class,net.sf.mpxj.planner.schema.Property,0,0,13,7,13,0,13,66,1,85,14,YES
+Public Class,net.sf.mpxj.planner.schema.Resource,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.planner.schema.ResourceGroups,0,0,3,2,3,0,3,21,1,50,4,YES
+Public Class,net.sf.mpxj.planner.schema.Task,3,0,33,17,33,0,33,170,1,94,36,YES
+Public Class,net.sf.mpxj.primavera.PrimaveraDatabaseReader,12,0,46,19,50,20,26,389,2,90,64,YES
+Public Class,net.sf.mpxj.primavera.PrimaveraPMFileReader,75,0,40,12,48,31,9,1066,3,91,151,YES
+Public Class,net.sf.mpxj.primavera.PrimaveraPMFileWriter,55,0,41,9,43,35,5,876,2,86,122,YES
+Class,net.sf.mpxj.primavera.PrimaveraReader,59,0,43,19,48,26,22,1342,1,92,196,YES
+Public Class,net.sf.mpxj.primavera.PrimaveraXERFileReader,19,0,47,26,55,25,22,737,3,93,99,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityCodeAssignmentType,1,0,36,18,36,0,36,165,1,94,36,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityCodeType,1,0,28,14,28,0,28,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityCodeTypeType,1,0,32,16,32,0,32,147,1,93,32,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityCodeUpdateType,1,0,32,16,32,0,32,147,1,93,32,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityCommentType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityExpenseType,1,0,77,39,77,0,77,354,1,97,78,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityFilterType,0,0,6,3,6,0,6,30,1,66,6,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityNoteType,1,0,34,17,34,0,34,156,1,94,34,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityNoteUpdateType,1,0,12,6,12,0,12,57,1,83,12,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityOwnerType,1,0,26,13,26,0,26,120,1,92,26,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityPeriodActualType,1,0,40,20,40,0,40,183,1,95,40,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityRiskType,1,0,30,15,30,0,30,138,1,93,30,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivitySpreadType,1,0,7,4,7,0,7,1504,1,75,8,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepCreateType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepDeleteType,1,0,12,6,12,0,12,57,1,83,12,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepTemplateItemType,1,0,21,11,21,0,21,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepTemplateType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepType,1,0,41,21,41,0,41,192,1,95,42,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityStepUpdateType,1,0,30,15,30,0,30,138,1,93,30,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityType,2,0,424,213,424,0,424,1920,1,99,426,YES
+Public Class,net.sf.mpxj.primavera.schema.ActivityUpdateType,1,0,58,29,58,0,58,264,1,96,58,YES
+Public Class,net.sf.mpxj.primavera.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.primavera.schema.Adapter2,1,0,2,0,2,0,2,11,2,0,2,YES
+Public Class,net.sf.mpxj.primavera.schema.APIBusinessObjects,1,0,126,124,126,0,126,1119,1,99,248,YES
+Public Class,net.sf.mpxj.primavera.schema.BaselineProjectType,2,0,501,267,501,0,501,2406,1,99,534,YES
+Public Class,net.sf.mpxj.primavera.schema.BaselineTypeType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.CalendarType,3,0,40,20,40,0,40,263,1,95,40,YES
+Public Class,net.sf.mpxj.primavera.schema.CBSDurationSummaryType,1,0,30,15,30,0,30,138,1,93,30,YES
+Public Class,net.sf.mpxj.primavera.schema.CBSType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.ChangeSetType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.CostAccountType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.CurrencyType,1,0,30,15,30,0,30,138,1,93,30,YES
+Public Class,net.sf.mpxj.primavera.schema.DocumentCategoryType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.DocumentStatusCodeType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.DocumentType,1,0,61,31,61,0,61,282,1,96,62,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSBudgetChangeLogType,1,0,28,14,28,0,28,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSFundingType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSNoteType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSProjectWBSSpreadType,1,0,7,4,7,0,7,1484,1,75,8,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSSpendingPlanType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.EPSType,2,0,311,156,311,0,311,1407,1,99,312,YES
+Public Class,net.sf.mpxj.primavera.schema.ExpenseCategoryType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.FinancialPeriodType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.FundingSourceType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.GlobalPreferencesType,1,0,190,95,190,0,190,858,1,98,190,YES
+Public Class,net.sf.mpxj.primavera.schema.GlobalProfileType,2,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.IssueHistoryType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.JobServiceType,1,0,28,14,28,0,28,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.LocationType,1,0,34,17,34,0,34,156,1,94,34,YES
+Public Class,net.sf.mpxj.primavera.schema.MSPTemplateType,0,0,8,4,8,0,8,39,1,75,8,YES
+Public Class,net.sf.mpxj.primavera.schema.NotebookTopicType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ObjectFactory,150,0,151,0,151,0,151,606,1,0,151,YES
+Public Class,net.sf.mpxj.primavera.schema.OBSType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.OverheadCodeType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectBudgetChangeLogType,1,0,36,18,36,0,36,165,1,94,36,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectCodeAssignmentType,1,0,28,14,28,0,28,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectCodeType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectCodeTypeType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectDocumentType,1,0,36,18,36,0,36,165,1,94,36,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectFundingType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectIssueType,1,0,69,35,69,0,69,318,1,97,70,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectNoteType,1,0,40,20,40,0,40,183,1,95,40,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectPortfolioType,1,0,25,13,25,0,25,120,1,92,26,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectProfileType,2,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectResourceCategoryType,1,0,12,6,12,0,12,57,1,83,12,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectResourceQuantityType,1,0,38,19,38,0,38,174,1,94,38,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectResourceSpreadType,1,0,17,9,17,0,17,1049,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectResourceType,2,0,46,23,46,0,46,210,1,95,46,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectRoleSpreadType,1,0,15,8,15,0,15,1040,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectSpendingPlanType,1,0,30,15,30,0,30,138,1,93,30,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectThresholdType,1,0,46,23,46,0,46,210,1,95,46,YES
+Public Class,net.sf.mpxj.primavera.schema.ProjectType,2,0,635,334,635,0,635,3009,1,99,668,YES
+Public Class,net.sf.mpxj.primavera.schema.RelationshipType,1,0,62,31,62,0,62,282,1,96,62,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAccessType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAssignmentCreateType,1,0,32,16,32,0,32,147,1,93,32,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAssignmentPeriodActualType,1,0,28,14,28,0,28,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAssignmentSpreadType,1,0,7,4,7,0,7,504,1,75,8,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAssignmentType,3,0,203,102,203,0,203,921,1,99,204,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceAssignmentUpdateType,1,0,46,23,46,0,46,210,1,95,46,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceCodeAssignmentType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceCodeType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceCodeTypeType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceCurveType,2,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceCurveValuesType,0,0,42,21,42,0,42,192,1,95,42,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceHourType,1,0,56,28,56,0,56,255,1,96,56,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceLocationType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceRateType,1,0,32,16,32,0,32,147,1,93,32,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceRequestType,1,0,21,11,21,0,21,137,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceRoleType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceTeamType,1,0,19,10,19,0,19,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.ResourceType,1,0,99,51,99,0,99,462,1,98,102,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskCategoryType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskImpactType,1,0,34,17,34,0,34,156,1,94,34,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskMatrixScoreType,1,0,52,26,52,0,52,237,1,96,52,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskMatrixThresholdType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskMatrixType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskResponseActionImpactType,1,0,38,19,38,0,38,174,1,94,38,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskResponseActionType,1,0,68,34,68,0,68,309,1,97,68,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskResponsePlanType,1,0,54,27,54,0,54,246,1,96,54,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskThresholdLevelType,1,0,34,17,34,0,34,156,1,94,34,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskThresholdType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.RiskType,1,0,69,35,69,0,69,318,1,97,70,YES
+Public Class,net.sf.mpxj.primavera.schema.RoleLimitType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.RoleRateType,1,0,26,13,26,0,26,120,1,92,26,YES
+Public Class,net.sf.mpxj.primavera.schema.RoleTeamType,1,0,19,10,19,0,19,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.RoleType,1,0,23,12,23,0,23,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.ScheduleCheckOptionType,0,0,72,36,72,0,72,327,1,97,72,YES
+Public Class,net.sf.mpxj.primavera.schema.ScheduleOptionsType,1,0,48,24,48,0,48,219,1,95,48,YES
+Public Class,net.sf.mpxj.primavera.schema.ShiftPeriodType,1,0,12,6,12,0,12,57,1,83,12,YES
+Public Class,net.sf.mpxj.primavera.schema.ShiftType,1,0,13,7,13,0,13,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.ThresholdParameterType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.TimesheetAuditType,1,0,46,23,46,0,46,210,1,95,46,YES
+Public Class,net.sf.mpxj.primavera.schema.TimesheetDelegateType,1,0,24,12,24,0,24,111,1,91,24,YES
+Public Class,net.sf.mpxj.primavera.schema.TimesheetPeriodType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.TimesheetType,1,0,27,14,27,0,27,129,1,92,28,YES
+Public Class,net.sf.mpxj.primavera.schema.UDFAssignmentType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.UDFCodeType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.UDFTypeType,1,0,22,11,22,0,22,102,1,90,22,YES
+Public Class,net.sf.mpxj.primavera.schema.UDFValueType,1,0,50,25,50,0,50,228,1,96,50,YES
+Public Class,net.sf.mpxj.primavera.schema.UnitOfMeasureType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.UpdateBaselineOptionType,0,0,82,41,82,0,82,372,1,97,82,YES
+Public Class,net.sf.mpxj.primavera.schema.UserDefinedValueUpdateType,1,0,56,28,56,0,56,255,1,96,56,YES
+Public Class,net.sf.mpxj.primavera.schema.UserFieldTitleType,1,0,18,9,18,0,18,84,1,88,18,YES
+Public Class,net.sf.mpxj.primavera.schema.UserInterfaceViewType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.UserLicenseType,1,0,16,8,16,0,16,75,1,87,16,YES
+Public Class,net.sf.mpxj.primavera.schema.UserOBSType,1,0,20,10,20,0,20,93,1,90,20,YES
+Public Class,net.sf.mpxj.primavera.schema.UserType,2,0,126,63,126,0,126,585,1,98,126,YES
+Public Class,net.sf.mpxj.primavera.schema.WBSCategoryType,1,0,14,7,14,0,14,66,1,85,14,YES
+Public Class,net.sf.mpxj.primavera.schema.WBSMilestoneType,1,0,32,16,32,0,32,147,1,93,32,YES
+Public Class,net.sf.mpxj.primavera.schema.WBSType,2,0,347,175,347,0,347,1578,1,99,350,YES
+Public Class,net.sf.mpxj.primavera.schema.WorkTimeType,1,0,4,2,4,0,4,21,1,50,4,YES
+Public Class,net.sf.mpxj.ProjectProperties,23,0,251,2,253,3,247,1155,2,99,267,YES
+Public Class,net.sf.mpxj.Resource,26,0,219,8,221,3,214,1107,2,98,269,YES
+Public Class,net.sf.mpxj.ResourceAssignment,31,0,206,13,208,14,192,1331,2,98,307,YES
+Public Class,net.sf.mpxj.ResourceAssignmentContainer,4,0,2,0,19,0,2,16,4,0,3,YES
+Public Class,net.sf.mpxj.ResourceContainer,6,0,3,0,25,0,3,34,5,0,6,YES
+Public Class,net.sf.mpxj.sample.MpxjQuery,14,0,0,0,17,16,1,288,1,0,61,YES
+Class,net.sf.mpxj.synchro.DatatypeConverter,4,0,0,0,17,1,16,187,1,0,30,YES
+Class,net.sf.mpxj.synchro.MapRow,3,0,12,1,12,1,11,69,1,75,15,YES
+Public Class,net.sf.mpxj.Task,34,0,366,12,368,6,358,2266,2,99,525,YES
+Public Class,net.sf.mpxj.TaskContainer,6,0,7,0,29,1,5,144,5,0,28,YES
+Public Class,net.sf.mpxj.turboproject.TurboProjectReader,39,0,16,3,26,16,2,347,3,66,47,YES
+Public Class,net.sf.mpxj.ActivityCode,1,0,5,3,5,0,5,29,1,60,5,NO
+Public Class,net.sf.mpxj.ActivityCodeContainer,0,0,0,0,10,0,0,3,3,0,0,NO
+Public Class,net.sf.mpxj.ActivityCodeValue,1,0,8,5,8,0,8,43,1,70,8,NO
+Abstract Class,net.sf.mpxj.asta.AbstractFileFormat,2,8,21,0,21,2,2,792,1,0,5,NO
+Public Class,net.sf.mpxj.asta.AstaDatabaseFileReader,10,0,18,6,26,15,3,240,3,76,34,NO
+Public Class,net.sf.mpxj.asta.AstaDatabaseReader,8,0,19,8,27,12,7,240,3,75,33,NO
+Public Class,net.sf.mpxj.asta.AstaFileReader,4,0,2,0,10,0,2,34,3,0,4,NO
+Class,net.sf.mpxj.asta.AstaReader,28,0,33,4,33,20,13,831,1,81,141,NO
+Class,net.sf.mpxj.asta.AstaTextFileReader,21,0,12,4,20,10,2,274,3,70,39,NO
+Class,net.sf.mpxj.asta.ColumnDefinition,0,0,3,2,3,0,3,18,1,33,3,NO
+Class,net.sf.mpxj.asta.DatatypeConverter,1,0,0,0,7,0,7,191,1,0,28,NO
+Class,net.sf.mpxj.asta.FileFormat10008,0,0,18,0,39,0,1,766,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat11004,0,0,18,0,39,0,1,780,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat12002,0,0,18,0,39,0,1,784,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat12005,0,0,18,0,39,0,1,790,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat13001,0,0,18,0,39,0,1,811,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat13004,0,0,18,0,39,0,1,813,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat8020,0,0,18,0,39,0,1,823,2,0,18,NO
+Class,net.sf.mpxj.asta.FileFormat9006,0,0,18,0,39,0,1,832,2,0,18,NO
+Class,net.sf.mpxj.asta.MapRow,4,3,16,2,16,0,16,122,1,81,26,NO
+Class,net.sf.mpxj.asta.MpdResultSetRow,1,0,1,0,17,0,1,86,2,0,20,NO
+Class,net.sf.mpxj.asta.RowComparator,2,0,2,1,2,0,2,25,1,0,4,NO
+Class,net.sf.mpxj.asta.RowHeader,0,0,7,4,7,1,6,64,1,57,12,NO
+Class,net.sf.mpxj.asta.SqliteResultSetRow,4,0,2,0,18,0,2,120,2,0,27,NO
+Class,net.sf.mpxj.asta.TableDefinition,1,0,3,2,3,0,3,18,1,33,3,NO
+Class,net.sf.mpxj.asta.TextFileRow,4,0,2,0,18,1,1,77,2,0,14,NO
+Public Class,net.sf.mpxj.Availability,1,0,5,2,5,0,5,26,1,30,5,NO
+Public Class,net.sf.mpxj.AvailabilityTable,2,0,1,0,1,0,1,25,2,0,4,NO
+Public Class,net.sf.mpxj.Column,4,0,13,6,13,0,13,122,1,78,20,NO
+Public Abstract Class,net.sf.mpxj.common.AbstractTimephasedWorkNormaliser,6,2,3,0,3,0,1,57,1,0,6,NO
+Public Class,net.sf.mpxj.common.AlphanumComparator,0,0,3,0,3,2,1,84,1,0,15,NO
+Public Class,net.sf.mpxj.common.AssignmentFieldLists,1,0,0,0,0,0,0,491,1,0,0,NO
+Public Class,net.sf.mpxj.common.AutoCloseableHelper,0,0,0,0,1,0,1,16,1,0,3,NO
+Public Class,net.sf.mpxj.common.BooleanHelper,0,0,0,0,1,0,1,7,1,0,2,NO
+Public Class,net.sf.mpxj.common.ByteArray,1,0,3,1,3,0,3,16,1,0,3,NO
+Public Class,net.sf.mpxj.common.ByteArrayHelper,0,0,0,0,4,0,4,107,1,0,16,NO
+Public Class,net.sf.mpxj.common.CharsetHelper,0,0,0,0,0,0,0,12,1,0,0,NO
+Public Class,net.sf.mpxj.common.DebugLogPrintWriter,0,0,0,0,1,0,1,25,1,0,3,NO
+Public Class,net.sf.mpxj.common.DefaultTimephasedCostContainer,2,0,3,4,3,0,3,27,1,25,4,NO
+Public Class,net.sf.mpxj.common.DefaultTimephasedWorkContainer,3,0,5,4,5,1,4,42,1,35,7,NO
+Public Class,net.sf.mpxj.common.EnumHelper,1,0,0,0,2,0,2,24,1,0,4,NO
+Public Class,net.sf.mpxj.common.FileHelper,0,0,0,0,6,0,6,62,1,0,16,NO
+Public Class,net.sf.mpxj.common.FixedLengthInputStream,0,0,10,1,10,0,10,75,2,40,18,NO
+Public Class,net.sf.mpxj.common.InputStreamTokenizer,0,0,2,1,8,0,1,12,2,0,2,NO
+Public Class,net.sf.mpxj.common.MPPConstraintField,1,0,0,0,2,0,2,38,1,0,3,NO
+Public Class,net.sf.mpxj.common.MultiDateFormat,0,1,4,1,4,0,3,44,2,25,8,NO
+Public Class,net.sf.mpxj.common.NumberHelper,0,0,0,0,13,0,13,111,1,0,29,NO
+Public Class,net.sf.mpxj.common.ReaderTokenizer,0,1,2,1,8,0,1,12,2,0,2,NO
+Public Class,net.sf.mpxj.common.ResourceFieldLists,1,0,0,0,0,0,0,407,1,0,0,NO
+Public Class,net.sf.mpxj.common.RtfHelper,0,0,0,0,3,2,1,34,1,0,6,NO
+Public Class,net.sf.mpxj.common.SemVer,0,0,5,1,5,0,5,35,1,60,10,NO
+Public Class,net.sf.mpxj.common.SplitTaskFactory,5,0,1,0,1,0,1,75,1,0,10,NO
+Public Class,net.sf.mpxj.common.StreamHelper,0,0,0,0,1,0,1,16,1,0,3,NO
+Public Abstract Class,net.sf.mpxj.common.Tokenizer,0,2,6,5,6,0,4,130,1,68,18,NO
+Public Class,net.sf.mpxj.common.UnmarshalHelper,0,0,0,0,4,0,4,37,1,0,5,NO
+Public Class,net.sf.mpxj.conceptdraw.ConceptDrawProjectReader,43,0,17,5,25,15,2,339,3,79,47,NO
+Public Class,net.sf.mpxj.conceptdraw.DatatypeConverter,7,0,0,0,28,0,28,238,1,0,35,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.ActiveFilter,0,0,8,4,8,0,8,39,1,75,8,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter10,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter11,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter12,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter13,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter14,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter15,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter16,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter2,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter3,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter4,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter5,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter6,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter7,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter8,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Adapter9,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Callouts,0,0,1,1,1,0,1,61,1,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Document,11,0,28,14,28,0,28,1805,1,92,28,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.Hyperlinks,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.ObjectFactory,44,0,45,0,45,0,45,184,1,0,45,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.PPVItemsType,0,0,1,1,1,0,1,297,1,0,2,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.StyleProject,2,0,4,2,4,0,4,46,1,50,4,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.TimeScale,1,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.conceptdraw.schema.ViewProperties,2,0,16,8,16,0,16,125,1,87,16,NO
+Public Class,net.sf.mpxj.CostAccount,0,0,10,6,10,0,10,53,1,76,10,NO
+Public Class,net.sf.mpxj.CostAccountContainer,2,0,3,0,20,0,3,15,4,0,3,NO
+Public Class,net.sf.mpxj.CustomField,4,0,10,7,10,0,10,57,1,75,10,NO
+Public Class,net.sf.mpxj.CustomFieldContainer,5,0,9,4,9,0,8,51,1,69,12,NO
+Public Class,net.sf.mpxj.CustomFieldLookupTable,0,0,14,7,24,0,14,66,3,85,14,NO
+Public Class,net.sf.mpxj.CustomFieldValueMask,1,0,6,4,6,0,6,34,1,50,6,NO
+Public Class,net.sf.mpxj.DataLink,1,0,11,5,11,0,11,74,1,72,13,NO
+Public Class,net.sf.mpxj.DataLinkContainer,0,0,0,0,10,0,0,3,3,0,0,NO
+Public Class,net.sf.mpxj.DateRange,1,0,8,2,8,0,8,53,1,25,10,NO
+Public Class,net.sf.mpxj.Duration,3,0,10,2,16,2,14,270,1,50,51,NO
+Public Class,net.sf.mpxj.EventManager,6,0,13,1,13,0,13,129,1,7,37,NO
+Public Class,net.sf.mpxj.ExpenseCategory,0,0,6,3,6,0,6,32,1,55,6,NO
+Public Class,net.sf.mpxj.ExpenseCategoryContainer,2,0,3,0,20,0,3,15,4,0,3,NO
+Public Class,net.sf.mpxj.ExpenseItem,4,0,41,20,41,0,41,187,1,94,41,NO
+Public Class,net.sf.mpxj.explorer.FileChooserController,1,0,2,1,2,0,2,12,1,0,2,NO
+Public Class,net.sf.mpxj.explorer.FileChooserModel,0,0,9,4,9,0,9,43,1,66,9,NO
+Public Class,net.sf.mpxj.explorer.FileChooserView,1,0,3,3,3,0,1,49,1,11,6,NO
+Public Class,net.sf.mpxj.explorer.FileSaverController,1,0,2,1,2,0,2,12,1,0,2,NO
+Public Class,net.sf.mpxj.explorer.FileSaverModel,0,0,11,5,11,0,11,52,1,72,11,NO
+Public Class,net.sf.mpxj.explorer.FileSaverView,1,0,3,3,3,0,1,52,1,11,6,NO
+Public Class,net.sf.mpxj.explorer.HexDumpController,5,0,4,1,4,0,2,200,1,0,16,NO
+Public Class,net.sf.mpxj.explorer.HexDumpModel,0,0,51,25,51,0,51,232,1,94,51,NO
+Public Class,net.sf.mpxj.explorer.HexDumpView,3,0,1,0,1,0,1,119,2,0,1,NO
+Public Class,net.sf.mpxj.explorer.JLabelledValue,0,0,3,1,3,0,3,26,2,0,3,NO
+Public Class,net.sf.mpxj.explorer.JTableExtra,0,0,6,2,6,0,6,65,2,58,7,NO
+Public Class,net.sf.mpxj.explorer.JTablePanel,1,0,7,2,7,0,6,83,2,50,7,NO
+Public Class,net.sf.mpxj.explorer.MppExplorer,3,0,2,1,3,1,2,63,1,66,3,NO
+Public Class,net.sf.mpxj.explorer.MppFilePanel,6,0,1,6,1,0,1,41,2,0,1,NO
+Public Class,net.sf.mpxj.explorer.MpxjTreeNode,0,17,4,1,4,0,4,22,2,50,4,NO
+Public Class,net.sf.mpxj.explorer.ObjectPropertiesModel,0,0,5,2,5,0,5,25,1,40,5,NO
+Public Class,net.sf.mpxj.explorer.ObjectPropertiesPanel,3,0,1,3,1,0,1,15,2,0,1,NO
+Public Class,net.sf.mpxj.explorer.ObjectPropertiesView,1,0,1,0,1,0,1,16,2,0,1,NO
+Public Class,net.sf.mpxj.explorer.PoiTreeController,2,0,2,1,2,0,2,26,1,0,3,NO
+Public Class,net.sf.mpxj.explorer.PoiTreeModel,0,0,11,2,11,2,9,101,1,77,20,NO
+Public Class,net.sf.mpxj.explorer.PoiTreeView,1,0,2,0,2,0,2,16,2,0,3,NO
+Public Class,net.sf.mpxj.explorer.ProjectExplorer,6,0,2,1,3,1,2,184,1,66,3,NO
+Public Class,net.sf.mpxj.explorer.ProjectFilePanel,4,0,2,4,2,0,2,50,2,37,3,NO
+Public Class,net.sf.mpxj.explorer.ProjectTreeController,28,0,18,4,19,16,3,355,1,94,36,NO
+Public Class,net.sf.mpxj.explorer.ProjectTreeModel,1,0,1,0,1,0,1,7,2,0,1,NO
+Public Class,net.sf.mpxj.explorer.ProjectTreeView,1,0,1,0,1,0,1,7,2,0,1,NO
+Abstract Class,net.sf.mpxj.fasttrack.AbstractColumn,7,16,9,4,9,1,5,70,1,62,11,NO
+Class,net.sf.mpxj.fasttrack.AssignmentColumn,2,0,3,1,12,0,0,45,2,33,7,NO
+Class,net.sf.mpxj.fasttrack.BlockHeader,2,0,6,6,6,0,6,61,1,58,7,NO
+Class,net.sf.mpxj.fasttrack.BooleanColumn,2,0,3,1,12,0,0,47,2,33,7,NO
+Class,net.sf.mpxj.fasttrack.CalendarColumn,2,0,3,0,12,0,0,28,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.DateColumn,3,0,3,0,12,0,0,50,2,0,9,NO
+Class,net.sf.mpxj.fasttrack.DoubleColumn,1,0,3,0,12,0,0,27,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.DurationColumn,2,0,4,1,13,0,1,39,2,50,7,NO
+Class,net.sf.mpxj.fasttrack.EnumColumn,3,0,3,1,12,0,0,43,2,33,7,NO
+Class,net.sf.mpxj.fasttrack.FastTrackData,25,0,23,11,25,17,6,448,1,88,60,NO
+Public Class,net.sf.mpxj.fasttrack.FastTrackReader,19,0,8,3,16,6,2,493,3,37,34,NO
+Class,net.sf.mpxj.fasttrack.FastTrackTable,6,0,7,3,7,1,6,51,1,66,9,NO
+Class,net.sf.mpxj.fasttrack.FastTrackUtility,3,0,0,0,12,0,12,210,1,0,37,NO
+Class,net.sf.mpxj.fasttrack.FixedSizeItemsBlock,1,0,3,2,3,0,3,35,1,33,4,NO
+Class,net.sf.mpxj.fasttrack.IdentifierColumn,2,0,3,0,12,0,0,28,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.IntegerColumn,2,0,3,0,12,0,0,28,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.MapRow,6,0,14,2,14,0,14,102,1,78,22,NO
+Class,net.sf.mpxj.fasttrack.NumberColumn,2,0,3,0,12,0,0,28,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.PercentColumn,2,0,3,0,12,0,0,31,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.RelationColumn,1,0,3,0,12,0,0,23,2,0,4,NO
+Class,net.sf.mpxj.fasttrack.ShortColumn,2,0,3,0,12,0,0,28,2,0,5,NO
+Class,net.sf.mpxj.fasttrack.StringColumn,1,0,3,0,12,0,0,51,2,0,7,NO
+Class,net.sf.mpxj.fasttrack.StringsWithLengthBlock,1,0,3,2,3,0,3,34,1,33,5,NO
+Class,net.sf.mpxj.fasttrack.TimeColumn,3,0,3,0,12,0,0,39,2,0,6,NO
+Class,net.sf.mpxj.fasttrack.UnexpectedStructureException,0,0,0,0,0,0,0,3,2,0,0,NO
+Class,net.sf.mpxj.fasttrack.UnknownColumn,0,0,3,0,12,0,0,15,2,0,3,NO
+Public Class,net.sf.mpxj.Filter,3,0,16,7,16,0,16,103,1,82,21,NO
+Public Class,net.sf.mpxj.FilterContainer,1,0,6,4,6,0,6,53,1,50,11,NO
+Public Class,net.sf.mpxj.ganttdesigner.DatatypeConverter,3,0,0,0,10,0,10,83,1,0,20,NO
+Public Class,net.sf.mpxj.ganttdesigner.GanttDesignerReader,25,0,11,3,19,9,2,204,3,69,26,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Adapter2,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Adapter3,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Adapter4,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Adapter5,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.Gantt,22,0,54,27,54,0,54,1707,1,96,54,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.GanttDesignerRemark,0,0,1,1,1,0,1,36,1,0,2,NO
+Public Class,net.sf.mpxj.ganttdesigner.schema.ObjectFactory,35,0,36,0,36,0,36,146,1,0,36,NO
+Class,net.sf.mpxj.ganttproject.CustomProperty,1,0,3,2,3,0,3,23,1,33,4,NO
+Public Class,net.sf.mpxj.ganttproject.DatatypeConverter,0,0,0,0,2,0,2,31,1,0,5,NO
+Public Class,net.sf.mpxj.ganttproject.GanttProjectReader,54,0,23,10,31,21,2,572,3,87,89,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Allocation,0,0,12,6,12,0,12,57,1,83,12,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Allocations,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Calendars,1,0,5,3,5,0,5,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Customproperty,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.CustomPropertyDefinition,0,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.ganttproject.schema.CustomResourceProperty,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.CustomTaskProperty,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Date,0,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.ganttproject.schema.DayType,0,0,4,2,4,0,4,21,1,50,4,NO
+Public Class,net.sf.mpxj.ganttproject.schema.DayTypes,2,0,9,5,9,0,9,48,1,80,10,NO
+Public Class,net.sf.mpxj.ganttproject.schema.DefaultWeek,0,0,20,10,20,0,20,93,1,90,20,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Depend,0,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Field,0,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.ganttproject.schema.ObjectFactory,26,0,27,0,27,0,27,110,1,0,27,NO
+Public Class,net.sf.mpxj.ganttproject.schema.OnlyShowWeekends,0,0,4,2,4,0,4,21,1,50,4,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Project,6,0,34,18,34,0,34,165,1,94,36,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Rate,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Resource,1,0,13,7,13,0,13,66,1,85,14,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Resources,0,0,2,2,2,0,2,21,1,50,4,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Role,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Roles,0,0,3,2,3,0,3,21,1,50,4,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Task,1,0,27,15,27,0,27,138,1,93,30,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Taskproperties,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Taskproperty,0,0,12,6,12,0,12,57,1,83,12,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Tasks,1,0,5,3,5,0,5,30,1,66,6,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Vacation,1,0,8,4,8,0,8,39,1,75,8,NO
+Public Class,net.sf.mpxj.ganttproject.schema.Vacations,1,0,2,1,2,0,2,12,1,0,2,NO
+Public Class,net.sf.mpxj.ganttproject.schema.View,0,0,5,3,5,0,5,30,1,66,6,NO
+Public Class,net.sf.mpxj.GenericCriteria,9,1,13,7,13,2,11,251,1,73,44,NO
+Public Class,net.sf.mpxj.GenericCriteriaPrompt,1,0,4,2,4,0,4,26,1,37,4,NO
+Public Class,net.sf.mpxj.GraphicalIndicator,5,0,18,8,18,0,18,166,1,79,30,NO
+Public Class,net.sf.mpxj.GraphicalIndicatorCriteria,2,0,5,1,18,0,5,30,2,19,6,NO
+Public Class,net.sf.mpxj.Group,1,0,7,4,7,0,7,51,1,57,8,NO
+Public Class,net.sf.mpxj.GroupClause,3,0,17,8,17,0,17,96,1,82,17,NO
+Public Class,net.sf.mpxj.GroupContainer,1,0,3,1,13,0,1,16,3,0,3,NO
+Public Class,net.sf.mpxj.ikvm.MapFileGenerator,0,0,11,1,12,10,2,287,1,83,43,NO
+Public Class,net.sf.mpxj.json.JsonStreamWriter,0,0,21,6,21,7,14,201,1,79,39,NO
+Public Class,net.sf.mpxj.json.JsonWriter,21,0,28,4,30,23,5,408,2,75,78,NO
+Public Class,net.sf.mpxj.junit.assignment.AssignmentAssignmentsTest,9,0,2,1,2,1,1,38,1,50,6,NO
+Public Class,net.sf.mpxj.junit.assignment.AssignmentFlagsTest,9,0,3,0,3,2,1,34,1,0,8,NO
+Public Class,net.sf.mpxj.junit.assignment.AssignmentTextTest,8,0,3,0,3,2,1,35,1,0,8,NO
+Public Class,net.sf.mpxj.junit.assignment.DeletedAssignmentTest,8,0,4,0,4,2,2,36,1,0,5,NO
+Public Class,net.sf.mpxj.junit.AvailabilityTableTest,2,0,1,0,1,0,1,22,1,0,1,NO
+Public Class,net.sf.mpxj.junit.AvailabilityTest,9,0,10,1,10,3,7,75,1,80,10,NO
+Public Class,net.sf.mpxj.junit.calendar.CalendarCalendarsTest,10,0,2,0,2,1,1,30,1,0,5,NO
+Public Class,net.sf.mpxj.junit.calendar.InvalidCalendarTest,7,0,1,0,1,0,1,16,1,0,1,NO
+Public Class,net.sf.mpxj.junit.calendar.MultiDayExceptionsTest,10,0,2,0,2,1,1,25,1,0,4,NO
+Public Class,net.sf.mpxj.junit.calendar.RecurringExceptionsTest,12,0,2,0,2,1,1,330,1,0,4,NO
+Public Class,net.sf.mpxj.junit.DateUtilityTest,1,0,2,0,2,0,2,31,1,0,2,NO
+Public Class,net.sf.mpxj.junit.DurationTest,11,0,9,0,9,1,8,67,1,0,9,NO
+Public Class,net.sf.mpxj.junit.FileUtility,0,0,0,0,1,0,1,37,1,0,6,NO
+Public Class,net.sf.mpxj.junit.legacy.BasicTest,29,0,47,0,47,11,36,1200,1,0,71,NO
+Public Class,net.sf.mpxj.junit.LocaleDataTest,4,0,1,0,1,0,1,18,1,0,4,NO
+Public Class,net.sf.mpxj.junit.LocaleTest,7,0,3,0,3,1,2,32,1,0,4,NO
+Public Class,net.sf.mpxj.junit.MppAssignmentTest,15,0,15,0,15,2,13,645,1,0,29,NO
+Public Class,net.sf.mpxj.junit.MppAutoFilterTest,10,0,7,0,7,1,6,66,1,0,7,NO
+Public Class,net.sf.mpxj.junit.MppBarStyleTest,15,0,18,0,18,6,12,2828,1,0,21,NO
+Public Class,net.sf.mpxj.junit.MppBaselineTest,9,0,8,0,8,1,7,144,1,0,8,NO
+Public Class,net.sf.mpxj.junit.MppCalendarTest,15,0,15,0,15,2,13,159,1,0,15,NO
+Public Class,net.sf.mpxj.junit.MppColumnsTest,7,0,5,0,5,2,3,1673,1,40,7,NO
+Public Class,net.sf.mpxj.junit.MppEnterpriseTest,9,0,8,0,8,1,7,68,1,0,8,NO
+Public Class,net.sf.mpxj.junit.MppFilterLogicTest,7,0,7,0,7,1,6,43,1,0,7,NO
+Public Class,net.sf.mpxj.junit.MppFilterTest,11,0,12,0,12,5,7,265,1,0,12,NO
+Public Class,net.sf.mpxj.junit.MppGanttTest,18,0,14,0,14,8,6,202,1,92,15,NO
+Public Class,net.sf.mpxj.junit.MppGraphIndTest,11,0,8,0,8,2,6,505,1,0,9,NO
+Public Class,net.sf.mpxj.junit.MppGroupTest,12,0,7,0,7,1,6,125,1,0,7,NO
+Public Class,net.sf.mpxj.junit.MppNullTaskTest,9,0,9,0,9,1,8,109,1,0,12,NO
+Public Class,net.sf.mpxj.junit.MppPasswordTest,5,0,1,0,1,0,1,10,1,0,1,NO
+Public Class,net.sf.mpxj.junit.MppProjectPropertiesTest,12,0,8,0,8,1,7,75,1,0,9,NO
+Public Class,net.sf.mpxj.junit.MppRecurringTest,12,0,9,0,9,1,8,150,1,0,9,NO
+Public Class,net.sf.mpxj.junit.MppResourceFlags,7,0,4,0,4,2,2,108,1,0,5,NO
+Public Class,net.sf.mpxj.junit.MppSubprojectTest,9,0,8,0,8,1,7,61,1,0,9,NO
+Public Class,net.sf.mpxj.junit.MppTaskFlags,9,0,8,0,8,2,6,226,1,0,10,NO
+Public Class,net.sf.mpxj.junit.MppTaskTest,19,0,36,1,36,5,31,559,1,97,38,NO
+Public Class,net.sf.mpxj.junit.MppViewStateTest,6,0,7,0,7,1,6,94,1,0,8,NO
+Public Class,net.sf.mpxj.junit.MppViewTest,10,0,7,0,7,1,6,74,1,0,11,NO
+Public Class,net.sf.mpxj.junit.MppXmlCompare,7,0,11,4,11,10,1,508,1,59,40,NO
+Public Class,net.sf.mpxj.junit.MpxjAssert,2,0,1,0,5,1,4,24,1,0,5,NO
+Public Class,net.sf.mpxj.junit.MpxjTestData,0,0,0,2,2,0,2,48,1,100,3,NO
+Public Class,net.sf.mpxj.junit.MpxjTestSuite,0,0,0,0,0,0,0,3,1,0,0,NO
+Public Class,net.sf.mpxj.junit.PlannerCalendarTest,4,0,1,0,1,0,1,8,1,0,1,NO
+Public Class,net.sf.mpxj.junit.PlannerResourceTest,4,0,1,0,1,0,1,8,1,0,1,NO
+Public Class,net.sf.mpxj.junit.primavera.PrimaveraDatabaseReaderTest,1,0,1,0,1,0,1,16,1,0,1,NO
+Public Class,net.sf.mpxj.junit.project.DataLinksTest,6,0,2,0,2,1,1,16,1,0,3,NO
+Public Class,net.sf.mpxj.junit.project.DefaultDurationFormatTest,7,0,1,0,1,0,1,9,1,0,1,NO
+Public Class,net.sf.mpxj.junit.project.ProjectPropertiesOnlyTest,7,0,2,0,2,1,1,24,1,0,4,NO
+Public Class,net.sf.mpxj.junit.project.ProjectPropertiesTest,9,0,2,0,2,1,1,40,1,0,5,NO
+Public Class,net.sf.mpxj.junit.project.ProjectValueListsTest,13,0,2,0,2,1,1,66,1,0,4,NO
+Public Class,net.sf.mpxj.junit.project.TaskContainerTest,5,0,1,0,1,0,1,27,1,0,1,NO
+Public Class,net.sf.mpxj.junit.ProjectCalendarTest,11,0,5,0,5,0,5,390,1,0,5,NO
+Public Class,net.sf.mpxj.junit.ProjectWriterUtilityTest,5,0,2,0,2,0,2,36,1,0,4,NO
+Public Class,net.sf.mpxj.junit.RecurringDataTest,3,0,2,1,2,1,1,131,1,50,4,NO
+Public Class,net.sf.mpxj.junit.resource.MppResourceTypeTest,9,0,5,0,5,2,3,47,1,0,7,NO
+Public Class,net.sf.mpxj.junit.resource.ResourceFlagsTest,9,0,3,0,3,2,1,33,1,0,8,NO
+Public Class,net.sf.mpxj.junit.resource.ResourceMiscTest,8,0,2,0,2,1,1,35,1,0,4,NO
+Public Class,net.sf.mpxj.junit.resource.ResourceNumbersTest,10,0,3,0,3,2,1,35,1,0,9,NO
+Public Class,net.sf.mpxj.junit.resource.ResourceTextTest,9,0,3,0,3,2,1,35,1,0,9,NO
+Public Class,net.sf.mpxj.junit.resource.ResourceTypeTest,10,0,2,0,2,1,1,45,1,0,5,NO
+Public Class,net.sf.mpxj.junit.SemVerTest,1,0,2,0,2,0,2,17,1,0,2,NO
+Public Class,net.sf.mpxj.junit.SlackTest,7,0,1,0,1,0,1,112,1,0,1,NO
+Public Class,net.sf.mpxj.junit.SplitTaskTest,6,0,3,1,3,1,2,60,1,66,5,NO
+Public Class,net.sf.mpxj.junit.task.TaskBaselinesTest,13,0,13,1,13,11,2,440,1,61,38,NO
+Public Class,net.sf.mpxj.junit.task.TaskCostsTest,10,0,3,0,3,2,1,35,1,0,9,NO
+Public Class,net.sf.mpxj.junit.task.TaskDatesTest,7,0,3,1,3,2,1,49,1,66,8,NO
+Public Class,net.sf.mpxj.junit.task.TaskDeletionTest,7,0,3,0,3,1,2,49,1,0,6,NO
+Public Class,net.sf.mpxj.junit.task.TaskDurationsTest,13,0,4,0,4,3,1,78,1,0,15,NO
+Public Class,net.sf.mpxj.junit.task.TaskFinishesTest,8,0,3,2,3,2,1,52,1,66,10,NO
+Public Class,net.sf.mpxj.junit.task.TaskFlagsTest,9,0,3,0,3,2,1,33,1,0,8,NO
+Public Class,net.sf.mpxj.junit.task.TaskLinksTest,13,0,3,0,3,2,1,42,1,0,5,NO
+Public Class,net.sf.mpxj.junit.task.TaskNumbersTest,10,0,3,0,3,2,1,35,1,0,9,NO
+Public Class,net.sf.mpxj.junit.task.TaskOutlineCodesTest,8,0,4,0,4,3,1,51,1,0,12,NO
+Public Class,net.sf.mpxj.junit.task.TaskPercentCompleteTest,7,0,3,0,3,2,1,32,1,0,3,NO
+Public Class,net.sf.mpxj.junit.task.TaskStartsTest,8,0,3,2,3,2,1,52,1,66,10,NO
+Public Class,net.sf.mpxj.junit.task.TaskTextTest,9,0,3,0,3,2,1,35,1,0,9,NO
+Public Class,net.sf.mpxj.junit.task.TaskTextValuesTest,7,0,2,0,2,1,1,45,1,0,4,NO
+Public Class,net.sf.mpxj.junit.TimephasedSegmentTest,10,0,8,2,8,2,6,937,1,87,10,NO
+Public Class,net.sf.mpxj.junit.TimephasedSegmentTest2,9,0,12,2,12,6,6,671,1,75,15,NO
+Public Class,net.sf.mpxj.junit.TimephasedTest,11,0,9,1,9,2,7,1033,1,88,10,NO
+Public Class,net.sf.mpxj.listener.DefaultProjectListener,5,0,10,0,10,0,10,33,1,0,10,NO
+Public Class,net.sf.mpxj.LocaleData_en,0,0,1,0,1,0,1,8,2,0,1,NO
+Class,net.sf.mpxj.merlin.MapRow,8,1,18,1,18,1,17,283,1,83,49,NO
+Public Class,net.sf.mpxj.merlin.MerlinReader,28,0,20,11,28,18,2,384,3,82,59,NO
+Class,net.sf.mpxj.merlin.SqliteResultSetRow,1,0,1,0,19,0,1,102,2,0,24,NO
+Class,net.sf.mpxj.mpd.MapRow,4,1,10,1,10,1,9,92,1,80,19,NO
+Public Class,net.sf.mpxj.mpd.MPD9DatabaseReader,13,0,32,10,61,27,5,383,2,90,68,NO
+Public Class,net.sf.mpxj.mpd.MPDUtility,5,0,0,0,11,0,11,351,1,0,61,NO
+Class,net.sf.mpxj.mpd.ResultSetRow,1,0,1,0,11,0,1,89,2,0,23,NO
+Abstract Class,net.sf.mpxj.mpp.AbstractCalendarAndExceptionFactory,13,2,6,0,18,4,1,241,2,0,31,NO
+Abstract Class,net.sf.mpxj.mpp.AbstractCalendarFactory,17,2,12,1,12,2,2,197,1,25,26,NO
+Public Abstract Class,net.sf.mpxj.mpp.AbstractMppView,1,2,2,0,9,0,1,30,2,0,6,NO
+Abstract Class,net.sf.mpxj.mpp.AbstractVarMeta,2,2,11,4,16,0,10,93,2,72,18,NO
+Public Abstract Class,net.sf.mpxj.mpp.AbstractView,5,1,7,6,7,0,7,38,1,71,8,NO
+Public Class,net.sf.mpxj.mpp.ApplicationVersion,0,0,0,0,0,0,0,11,1,0,0,NO
+Class,net.sf.mpxj.mpp.CompObj,1,0,6,4,11,0,5,59,2,54,10,NO
+Public Class,net.sf.mpxj.mpp.ConstraintFactory,14,0,1,0,1,0,1,68,1,0,12,NO
+Public Abstract Class,net.sf.mpxj.mpp.CriteriaReader,8,3,17,8,17,6,1,235,1,66,37,NO
+Public Class,net.sf.mpxj.mpp.CustomFieldValueItem,1,0,17,8,17,0,17,79,1,84,17,NO
+Public Abstract Class,net.sf.mpxj.mpp.CustomFieldValueReader,10,2,4,7,4,1,2,84,1,61,11,NO
+Public Class,net.sf.mpxj.mpp.CustomFieldValueReader12,14,0,3,0,7,1,2,62,2,0,8,NO
+Public Class,net.sf.mpxj.mpp.CustomFieldValueReader14,16,0,3,0,7,1,2,75,2,0,10,NO
+Public Class,net.sf.mpxj.mpp.CustomFieldValueReader9,21,0,8,5,8,6,2,223,1,72,30,NO
+Class,net.sf.mpxj.mpp.DataLinkFactory,12,0,3,3,3,1,2,60,1,33,10,NO
+Class,net.sf.mpxj.mpp.DocumentInputStreamFactory,2,0,3,2,3,0,3,29,1,16,5,NO
+Class,net.sf.mpxj.mpp.DoubleVarDataFieldReader,3,0,3,0,7,0,1,19,2,0,4,NO
+Class,net.sf.mpxj.mpp.EncryptedDocumentInputStream,0,0,9,2,9,0,9,50,2,33,10,NO
+Class,net.sf.mpxj.mpp.ExtendedData,3,0,11,2,11,1,9,117,1,40,21,NO
+Public Class,net.sf.mpxj.mpp.FieldMap.FieldItem,20,0,12,7,12,3,8,423,1,65,79,NO
+Class,net.sf.mpxj.mpp.FieldMap12,8,0,8,0,36,0,1,1331,2,0,8,NO
+Class,net.sf.mpxj.mpp.FieldMap14,8,0,8,0,36,0,1,1498,2,0,8,NO
+Class,net.sf.mpxj.mpp.FieldMap9,8,0,8,0,36,0,1,590,2,0,8,NO
+Public Class,net.sf.mpxj.mpp.FilterCriteriaReader12,3,0,10,0,27,0,0,46,2,0,10,NO
+Public Class,net.sf.mpxj.mpp.FilterCriteriaReader14,3,0,10,0,27,0,0,46,2,0,10,NO
+Public Class,net.sf.mpxj.mpp.FilterCriteriaReader9,3,0,10,0,27,0,0,46,2,0,10,NO
+Public Abstract Class,net.sf.mpxj.mpp.FilterReader,7,3,3,0,3,0,1,34,1,0,4,NO
+Public Class,net.sf.mpxj.mpp.FilterReader12,2,0,2,1,5,0,0,13,2,50,2,NO
+Public Class,net.sf.mpxj.mpp.FilterReader14,2,0,2,1,5,0,0,13,2,50,2,NO
+Public Class,net.sf.mpxj.mpp.FilterReader9,2,0,2,1,5,0,0,13,2,50,2,NO
+Class,net.sf.mpxj.mpp.FixDeferFix,2,0,5,1,10,0,4,151,2,40,20,NO
+Class,net.sf.mpxj.mpp.FixedMeta,3,0,7,3,12,0,4,104,2,61,11,NO
+Class,net.sf.mpxj.mpp.FixFix,1,0,6,3,11,0,5,54,2,55,9,NO
+Public Class,net.sf.mpxj.mpp.FontBase,0,0,5,3,5,0,5,28,1,46,5,NO
+Public Class,net.sf.mpxj.mpp.FontStyle,2,1,10,8,10,0,10,58,1,70,10,NO
+Public Class,net.sf.mpxj.mpp.GanttBarCommonStyle,5,2,29,14,29,0,29,150,1,89,29,NO
+Public Class,net.sf.mpxj.mpp.GanttBarStyle,2,0,11,5,40,0,11,63,2,72,11,NO
+Public Class,net.sf.mpxj.mpp.GanttBarStyleException,0,0,5,2,34,0,5,33,2,40,5,NO
+Public Class,net.sf.mpxj.mpp.GanttBarStyleFactory14,12,0,4,0,4,2,2,127,1,0,16,NO
+Public Class,net.sf.mpxj.mpp.GanttBarStyleFactoryCommon,12,0,3,0,3,1,2,93,1,0,9,NO
+Public Abstract Class,net.sf.mpxj.mpp.GanttChartView,25,3,102,91,113,0,92,734,4,97,123,NO
+Public Class,net.sf.mpxj.mpp.GanttChartView12,25,0,9,0,122,1,0,203,5,0,18,NO
+Public Class,net.sf.mpxj.mpp.GanttChartView14,30,0,12,0,125,2,0,250,5,0,20,NO
+Public Class,net.sf.mpxj.mpp.GanttChartView9,25,0,9,0,122,1,0,199,5,0,17,NO
+Public Abstract Class,net.sf.mpxj.mpp.GenericView,6,4,2,0,11,0,1,23,3,0,3,NO
+Public Class,net.sf.mpxj.mpp.GenericView12,2,0,2,0,13,0,1,13,4,0,2,NO
+Public Class,net.sf.mpxj.mpp.GenericView14,2,0,2,0,13,0,1,13,4,0,2,NO
+Public Class,net.sf.mpxj.mpp.GenericView9,2,1,2,0,13,0,1,13,4,0,2,NO
+Public Class,net.sf.mpxj.mpp.GraphicalIndicatorReader,13,0,5,5,5,4,1,158,1,36,23,NO
+Public Class,net.sf.mpxj.mpp.GridLines,1,0,7,5,7,0,7,40,1,57,7,NO
+Public Abstract Class,net.sf.mpxj.mpp.GroupReader,14,2,2,0,2,0,1,95,1,0,13,NO
+Public Class,net.sf.mpxj.mpp.GroupReader12,0,0,1,0,3,0,0,8,2,0,1,NO
+Public Class,net.sf.mpxj.mpp.GroupReader14,13,0,1,0,1,0,1,95,1,0,14,NO
+Public Class,net.sf.mpxj.mpp.GroupReader9,0,0,1,0,3,0,0,8,2,0,1,NO
+Class,net.sf.mpxj.mpp.MPP12CalendarFactory,3,0,8,0,26,0,1,37,3,0,8,NO
+Class,net.sf.mpxj.mpp.MPP14CalendarFactory,6,0,8,3,26,0,1,52,3,75,9,NO
+Class,net.sf.mpxj.mpp.MPP9CalendarFactory,8,0,9,0,21,0,1,67,2,0,13,NO
+Public Abstract Class,net.sf.mpxj.mpp.MPPAbstractTimephasedWorkNormaliser,6,2,5,0,8,3,1,164,2,0,18,NO
+Public Class,net.sf.mpxj.mpp.MppBitFlag,3,0,2,5,2,0,2,23,1,0,4,NO
+Class,net.sf.mpxj.mpp.MPPComponent,1,8,5,0,5,0,0,42,1,0,9,NO
+Public Class,net.sf.mpxj.mpp.MPPTimephasedBaselineCostNormaliser,7,0,5,0,5,3,1,175,1,0,22,NO
+Public Class,net.sf.mpxj.mpp.MPPTimephasedBaselineWorkNormaliser,6,0,1,0,9,0,0,40,3,0,4,NO
+Public Class,net.sf.mpxj.mpp.MPPTimephasedWorkNormaliser,6,0,1,0,9,0,0,69,3,0,9,NO
+Public Class,net.sf.mpxj.mpp.MPPUtility,9,0,1,0,38,2,36,798,1,94,145,NO
+Class,net.sf.mpxj.mpp.Props12,2,0,1,0,18,0,0,33,3,0,4,NO
+Class,net.sf.mpxj.mpp.Props14,2,0,1,0,18,0,0,44,3,0,6,NO
+Class,net.sf.mpxj.mpp.Props8,3,0,2,1,19,0,1,79,3,0,10,NO
+Class,net.sf.mpxj.mpp.Props9,2,0,1,0,18,0,0,33,3,0,4,NO
+Class,net.sf.mpxj.mpp.PropsBlock,1,0,2,0,19,1,0,41,3,0,6,NO
+Class,net.sf.mpxj.mpp.RecurringTaskReader,7,0,2,1,2,0,2,95,1,0,13,NO
+Public Class,net.sf.mpxj.mpp.SplitView9,5,0,4,2,17,0,3,40,5,25,7,NO
+Class,net.sf.mpxj.mpp.StringVarDataFieldReader,2,0,3,0,7,0,1,19,2,0,4,NO
+Public Class,net.sf.mpxj.mpp.TableFontStyle,3,0,12,10,22,0,12,71,2,75,20,NO
+Public Class,net.sf.mpxj.mpp.TimescaleTier,3,0,13,6,13,0,13,61,1,76,13,NO
+Class,net.sf.mpxj.mpp.TimestampVarDataFieldReader,3,0,4,0,8,1,1,39,2,0,8,NO
+Class,net.sf.mpxj.mpp.Var2Data,4,0,17,2,22,0,16,223,2,29,43,NO
+Abstract Class,net.sf.mpxj.mpp.VarDataFieldReader,4,3,4,1,4,0,2,67,1,0,9,NO
+Public Class,net.sf.mpxj.mpp.View8,3,0,1,0,10,0,1,10,3,0,1,NO
+Class,net.sf.mpxj.mpp.ViewFactory12,8,0,1,0,1,0,1,30,1,0,3,NO
+Class,net.sf.mpxj.mpp.ViewFactory14,8,0,1,0,1,0,1,30,1,0,3,NO
+Class,net.sf.mpxj.mpp.ViewFactory9,8,0,1,0,1,0,1,30,1,0,3,NO
+Public Abstract Class,net.sf.mpxj.mpp.ViewStateReader,6,2,2,0,2,0,1,30,1,0,5,NO
+Public Class,net.sf.mpxj.mpp.ViewStateReader12,3,0,1,0,3,0,0,15,2,0,2,NO
+Public Class,net.sf.mpxj.mpp.ViewStateReader9,3,0,1,0,3,0,0,15,2,0,2,NO
+Class,net.sf.mpxj.mpx.AccrueTypeUtility,2,0,1,0,2,1,1,24,1,0,5,NO
+Class,net.sf.mpxj.mpx.ConstraintTypeUtility,2,0,1,0,2,1,1,20,1,0,4,NO
+Class,net.sf.mpxj.mpx.DurationUtility,4,0,1,0,2,1,1,40,1,0,6,NO
+Public Class,net.sf.mpxj.mpx.LocaleData,6,0,1,0,8,0,8,516,2,0,8,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_de,4,0,1,0,1,0,1,403,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_en,0,0,1,0,1,0,1,8,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_es,6,0,1,0,1,0,1,431,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_fr,6,0,1,0,1,0,1,427,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_it,6,0,1,0,1,0,1,427,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_pt,5,0,1,0,1,0,1,415,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_ru,6,0,1,0,1,0,1,418,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_sv,5,0,1,0,1,0,1,354,2,0,1,NO
+Public Class,net.sf.mpxj.mpx.LocaleData_zh,6,0,1,0,1,0,1,427,2,0,1,NO
+Class,net.sf.mpxj.mpx.LocaleUtility,8,0,1,0,3,1,2,42,1,0,3,NO
+Class,net.sf.mpxj.mpx.MPXConstants,0,0,1,0,1,1,0,37,1,0,1,NO
+Abstract Class,net.sf.mpxj.mpx.MPXJBaseFormat,0,2,4,1,8,0,3,43,3,50,7,NO
+Public Class,net.sf.mpxj.mpx.MPXJDateFormat,0,0,2,0,10,0,2,19,4,0,3,NO
+Public Class,net.sf.mpxj.mpx.MPXJFormats,10,0,18,11,18,7,11,591,1,88,106,NO
+Public Class,net.sf.mpxj.mpx.MPXJNumberFormat,0,0,4,2,4,0,4,112,2,12,23,NO
+Public Class,net.sf.mpxj.mpx.MPXJTimeFormat,0,0,1,0,9,0,1,10,4,0,1,NO
+Public Class,net.sf.mpxj.mpx.MPXReader,48,0,26,18,36,20,7,1095,3,89,251,NO
+Class,net.sf.mpxj.mpx.MPXResourceField,1,0,0,0,2,0,2,72,1,0,4,NO
+Class,net.sf.mpxj.mpx.MPXTaskField,1,0,0,0,2,0,2,151,1,0,4,NO
+Class,net.sf.mpxj.mpx.PriorityUtility,2,0,1,0,2,1,1,24,1,0,5,NO
+Class,net.sf.mpxj.mpx.Record,18,0,28,4,28,1,26,428,1,62,68,NO
+Class,net.sf.mpxj.mpx.RecurrenceUtility,8,0,1,0,12,2,10,196,1,0,26,NO
+Class,net.sf.mpxj.mpx.RelationTypeUtility,2,0,1,0,2,1,1,25,1,0,5,NO
+Class,net.sf.mpxj.mpx.ResourceModel,8,0,9,6,9,4,3,125,1,68,23,NO
+Class,net.sf.mpxj.mpx.TaskModel,10,0,10,6,10,5,3,150,1,71,27,NO
+Class,net.sf.mpxj.mpx.TimeUnitUtility,3,0,1,0,2,1,1,16,1,0,3,NO
+Public Class,net.sf.mpxj.MPXJException,0,0,2,0,2,0,2,25,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.DatatypeConverter,25,0,0,0,79,3,76,1149,1,0,256,NO
+Public Class,net.sf.mpxj.mspdi.MSPDITimephasedWorkNormaliser,7,0,5,0,8,4,1,183,2,0,25,NO
+Class,net.sf.mpxj.mspdi.NamespaceFilter,0,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter10,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter11,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter12,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter13,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter14,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter15,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter16,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter17,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter2,0,0,2,0,2,0,2,15,2,0,3,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter23,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter24,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter3,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter5,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter6,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter7,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter8,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.Adapter9,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.mspdi.schema.ObjectFactory,52,0,53,0,53,0,53,214,1,0,53,NO
+Public Class,net.sf.mpxj.mspdi.schema.Project,18,0,150,75,150,0,150,7205,1,98,150,NO
+Class,net.sf.mpxj.mspdi.XsdDuration,2,0,11,7,11,1,8,329,1,59,53,NO
+Public Class,net.sf.mpxj.phoenix.PhoenixInputStream,1,0,7,2,7,3,4,66,2,64,10,NO
+Public Class,net.sf.mpxj.phoenix.PhoenixReader,47,0,30,8,38,27,2,552,3,89,87,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter1,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter2,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter3,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter4,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter5,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter6,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter7,2,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter8,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.Adapter9,1,0,2,0,2,0,2,11,2,0,2,NO
+Public Class,net.sf.mpxj.phoenix.schema.ObjectFactory,55,0,56,0,56,0,56,226,1,0,56,NO
+Public Class,net.sf.mpxj.phoenix.schema.Project,5,0,14,7,14,0,14,3059,1,85,14,NO
+Public Class,net.sf.mpxj.phoenix.SkipNulInputStream,0,0,2,1,2,0,2,19,2,0,4,NO
+Public Class,net.sf.mpxj.planner.PlannerReader,45,0,26,6,34,24,2,629,3,88,102,NO
+Public Class,net.sf.mpxj.planner.PlannerWriter,44,0,26,7,28,23,3,558,2,83,81,NO
+Public Class,net.sf.mpxj.planner.schema.Allocations,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Calendars,1,0,3,2,3,0,3,21,1,50,4,NO
+Public Class,net.sf.mpxj.planner.schema.Days,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.DayTypes,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.OverriddenDayTypes,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Phases,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Predecessors,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Properties,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Resources,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.schema.Tasks,0,0,1,1,1,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.planner.Sequence,0,0,2,1,2,0,2,12,1,0,2,NO
+Class,net.sf.mpxj.primavera.ActivitySorter,2,0,2,2,2,0,2,41,1,50,4,NO
+Public Abstract Class,net.sf.mpxj.primavera.common.AbstractColumn,0,7,2,2,2,0,2,14,1,25,2,NO
+Public Abstract Class,net.sf.mpxj.primavera.common.AbstractIntColumn,0,3,2,0,4,0,2,18,2,0,3,NO
+Public Abstract Class,net.sf.mpxj.primavera.common.AbstractShortColumn,0,8,2,0,4,0,1,18,2,0,3,NO
+Public Class,net.sf.mpxj.primavera.common.AbstractWbsFormat,0,2,5,3,5,1,4,55,1,53,10,NO
+Public Class,net.sf.mpxj.primavera.common.Blast,1,0,3,0,4,3,1,406,1,0,41,NO
+Public Class,net.sf.mpxj.primavera.common.ByteColumn,0,0,2,0,4,0,2,18,2,0,3,NO
+Class,net.sf.mpxj.primavera.common.Huffman,0,0,1,2,1,0,1,10,1,0,1,NO
+Public Class,net.sf.mpxj.primavera.common.IntColumn,0,0,2,0,6,0,2,11,3,0,2,NO
+Public Class,net.sf.mpxj.primavera.common.MapRow,3,0,10,1,10,0,10,50,1,70,11,NO
+Public Class,net.sf.mpxj.primavera.common.ShortColumn,0,0,2,0,6,0,2,11,3,0,2,NO
+Public Class,net.sf.mpxj.primavera.common.StringColumn,0,0,2,1,4,0,2,24,2,0,4,NO
+Public Class,net.sf.mpxj.primavera.common.Table,1,0,3,2,3,0,3,42,1,33,7,NO
+Public Class,net.sf.mpxj.primavera.common.TableDefinition,2,0,7,5,7,0,7,40,1,71,7,NO
+Public Class,net.sf.mpxj.primavera.DatatypeConverter,0,0,0,0,6,0,6,97,1,0,18,NO
+Public Class,net.sf.mpxj.primavera.ExternalRelation,4,0,9,6,9,0,9,63,1,74,11,NO
+Class,net.sf.mpxj.primavera.MapRow,5,1,11,1,11,2,9,97,1,81,20,NO
+Class,net.sf.mpxj.primavera.NamespaceFilter,0,0,2,2,2,0,2,31,2,25,5,NO
+Class,net.sf.mpxj.primavera.p3.BtrieveDateColumn,1,0,2,0,4,0,2,29,2,0,3,NO
+Class,net.sf.mpxj.primavera.p3.DatabaseReader,14,0,1,0,1,0,1,431,1,0,5,NO
+Class,net.sf.mpxj.primavera.p3.DateColumn,2,0,2,0,4,0,2,42,2,0,6,NO
+Class,net.sf.mpxj.primavera.p3.DurationColumn,2,0,2,0,6,0,2,11,3,0,2,NO
+Public Class,net.sf.mpxj.primavera.p3.P3DatabaseReader,27,0,14,8,27,13,6,432,3,77,63,NO
+Public Class,net.sf.mpxj.primavera.p3.P3PRXFileReader,8,0,5,0,13,3,2,87,3,0,13,NO
+Class,net.sf.mpxj.primavera.p3.P3WbsFormat,1,0,1,0,6,0,1,18,2,0,3,NO
+Class,net.sf.mpxj.primavera.p3.PercentColumn,0,0,2,0,6,0,2,11,3,0,2,NO
+Class,net.sf.mpxj.primavera.p3.RelationTypeColumn,1,0,2,0,6,0,2,28,3,0,4,NO
+Class,net.sf.mpxj.primavera.p3.TableReader,5,0,5,1,5,3,2,79,1,40,14,NO
+Public Class,net.sf.mpxj.primavera.PrimaveraDatabaseFileReader,5,0,5,1,13,1,4,75,3,60,8,NO
+Class,net.sf.mpxj.primavera.PrimaveraInputStreamReader,0,0,4,0,5,2,3,43,2,0,9,NO
+Class,net.sf.mpxj.primavera.Record,0,0,12,3,13,4,6,153,1,74,32,NO
+Class,net.sf.mpxj.primavera.ResultSetRow,1,0,2,0,13,1,1,106,2,0,28,NO
+Public Class,net.sf.mpxj.primavera.schema.CodeAssignmentType,0,0,4,2,4,0,4,21,1,50,4,NO
+Public Class,net.sf.mpxj.primavera.schema.GatewayDeploymentType,0,0,8,4,8,0,8,39,1,75,8,NO
+Public Class,net.sf.mpxj.primavera.schema.GlobalPrivilegesType,0,0,126,63,126,0,126,570,1,98,126,NO
+Public Class,net.sf.mpxj.primavera.schema.GlobalReplaceType,0,0,20,10,20,0,20,93,1,90,20,NO
+Public Class,net.sf.mpxj.primavera.schema.ImportOptionsTemplateType,0,0,8,4,8,0,8,39,1,75,8,NO
+Public Class,net.sf.mpxj.primavera.schema.PortfolioTeamMemberType,0,0,6,3,6,0,6,30,1,66,6,NO
+Public Class,net.sf.mpxj.primavera.schema.ProjectDeploymentType,0,0,10,5,10,0,10,48,1,80,10,NO
+Public Class,net.sf.mpxj.primavera.schema.ProjectListType,0,0,1,1,1,0,1,90,1,0,2,NO
+Public Class,net.sf.mpxj.primavera.schema.ProjectPrivilegesType,0,0,110,55,110,0,110,498,1,98,110,NO
+Class,net.sf.mpxj.primavera.suretrak.AnnualColumn,1,0,2,0,6,0,2,12,3,0,2,NO
+Class,net.sf.mpxj.primavera.suretrak.DatabaseReader,15,0,1,0,1,0,1,112,1,0,5,NO
+Class,net.sf.mpxj.primavera.suretrak.DateInDaysColumn,1,0,2,0,6,0,2,18,3,0,3,NO
+Class,net.sf.mpxj.primavera.suretrak.DateInHoursColumn,1,0,2,0,6,0,2,13,3,0,3,NO
+Class,net.sf.mpxj.primavera.suretrak.DurationColumn,2,0,2,0,6,0,2,11,3,0,2,NO
+Class,net.sf.mpxj.primavera.suretrak.PercentColumn,0,0,2,0,6,0,2,11,3,0,2,NO
+Class,net.sf.mpxj.primavera.suretrak.RawColumn,0,0,2,1,4,0,2,15,2,0,2,NO
+Class,net.sf.mpxj.primavera.suretrak.RelationTypeColumn,1,0,2,0,6,0,2,28,3,0,4,NO
+Public Class,net.sf.mpxj.primavera.suretrak.SureTrakDatabaseReader,35,0,18,10,31,17,6,534,3,80,75,NO
+Public Class,net.sf.mpxj.primavera.suretrak.SureTrakSTXFileReader,7,0,5,0,13,3,2,79,3,0,11,NO
+Public Class,net.sf.mpxj.primavera.suretrak.SureTrakWbsFormat,1,0,1,0,6,0,1,19,2,0,3,NO
+Class,net.sf.mpxj.primavera.suretrak.TableReader,4,0,5,1,5,3,2,70,1,40,12,NO
+Class,net.sf.mpxj.primavera.UserFieldCounters,2,0,4,2,4,0,4,37,1,37,7,NO
+Class,net.sf.mpxj.primavera.WbsRowComparatorPMXML,2,0,1,0,1,0,1,16,1,0,2,NO
+Class,net.sf.mpxj.primavera.WbsRowComparatorXER,2,0,1,0,1,0,1,16,1,0,2,NO
+Public Class,net.sf.mpxj.Priority,0,0,3,1,4,1,3,59,1,25,6,NO
+Public Class,net.sf.mpxj.ProjectCalendar,16,0,61,18,83,16,43,1216,2,94,206,NO
+Public Class,net.sf.mpxj.ProjectCalendarContainer,6,0,6,0,23,0,6,67,4,0,10,NO
+Public Abstract Class,net.sf.mpxj.ProjectCalendarDateRanges,1,2,5,1,5,0,5,33,1,0,6,NO
+Public Class,net.sf.mpxj.ProjectCalendarException,3,0,11,4,16,0,10,77,2,70,17,NO
+Public Class,net.sf.mpxj.ProjectCalendarHours,3,0,5,2,10,0,4,37,2,50,7,NO
+Public Class,net.sf.mpxj.ProjectCalendarWeek,6,1,22,5,22,0,21,169,1,83,36,NO
+Class,net.sf.mpxj.projectcommander.Block,0,0,5,3,5,0,5,32,1,60,6,NO
+Class,net.sf.mpxj.projectcommander.BlockPattern,2,0,8,3,8,0,8,40,1,66,9,NO
+Class,net.sf.mpxj.projectcommander.BlockReference,1,0,4,2,4,0,4,22,1,25,4,NO
+Class,net.sf.mpxj.projectcommander.DatatypeConverter,4,0,0,0,12,0,12,116,1,0,23,NO
+Class,net.sf.mpxj.projectcommander.ProjectCommanderData,7,0,34,5,34,32,2,628,1,82,95,NO
+Public Class,net.sf.mpxj.projectcommander.ProjectCommanderReader,24,0,24,6,32,22,2,396,3,80,74,NO
+Public Class,net.sf.mpxj.ProjectConfig,6,0,30,16,30,0,29,170,1,93,38,NO
+Class,net.sf.mpxj.ProjectEntity,1,4,2,1,2,0,1,12,1,0,2,NO
+Public Class,net.sf.mpxj.ProjectFile,25,0,39,18,39,0,39,268,1,94,57,NO
+Public Class,net.sf.mpxj.projectlibre.ProjectLibreReader,6,0,3,1,11,0,3,31,3,33,5,NO
+Public Class,net.sf.mpxj.projectlibre.SearchableInputStream,0,0,3,4,3,0,3,52,2,41,8,NO
+Public Class,net.sf.mpxj.Rate,2,0,8,2,8,0,8,52,1,25,10,NO
+Public Abstract Class,net.sf.mpxj.reader.AbstractProjectFileReader,4,8,4,0,8,0,4,45,2,0,6,NO
+Public Abstract Class,net.sf.mpxj.reader.AbstractProjectReader,3,4,4,1,4,0,2,26,1,25,7,NO
+Public Abstract Class,net.sf.mpxj.reader.AbstractProjectStreamReader,3,20,4,0,8,0,4,49,2,0,6,NO
+Public Class,net.sf.mpxj.reader.ProjectReaderUtility,14,0,1,0,3,1,2,50,1,0,6,NO
+Public Class,net.sf.mpxj.reader.UniversalProjectReader,35,0,26,3,30,20,6,682,2,79,93,NO
+Public Class,net.sf.mpxj.RecurringData,4,1,40,11,40,12,28,521,1,89,94,NO
+Public Class,net.sf.mpxj.RecurringTask,1,0,3,1,43,0,3,25,2,0,4,NO
+Public Class,net.sf.mpxj.Relation,4,0,8,5,8,0,8,51,1,65,10,NO
+Public Class,net.sf.mpxj.ResourceAssignmentWorkgroupFields,0,0,12,6,12,0,12,58,1,83,12,NO
+Public Class,net.sf.mpxj.sage.SageReader,9,0,13,3,21,11,2,214,3,82,33,NO
+Public Class,net.sf.mpxj.sample.HexDump,1,0,0,0,2,1,1,36,1,0,4,NO
+Public Class,net.sf.mpxj.sample.MppDump,0,0,0,0,5,4,1,177,1,0,24,NO
+Public Class,net.sf.mpxj.sample.MpxjBatchConvert,1,0,0,0,1,0,1,47,1,0,5,NO
+Public Class,net.sf.mpxj.sample.MpxjConvert,6,0,2,0,3,1,2,51,1,0,6,NO
+Public Class,net.sf.mpxj.sample.MpxjCreate,15,0,0,0,2,1,1,88,1,0,4,NO
+Public Class,net.sf.mpxj.sample.MpxjCreateTimephased,11,0,0,0,2,1,1,73,1,0,4,NO
+Public Class,net.sf.mpxj.sample.MpxjFilter,6,0,0,0,5,4,1,77,1,0,15,NO
+Public Class,net.sf.mpxj.sample.PrimaveraConvert,4,0,2,0,3,1,2,50,1,0,6,NO
+Public Class,net.sf.mpxj.sample.TaskDateDump,3,0,2,1,3,1,2,49,1,66,8,NO
+Abstract Class,net.sf.mpxj.sdef.AbstractSDEFRecord,4,8,9,1,9,0,1,43,1,0,9,NO
+Class,net.sf.mpxj.sdef.ActivityRecord,10,0,2,0,11,0,1,48,2,0,2,NO
+Class,net.sf.mpxj.sdef.CalendarRecord,7,0,2,0,11,0,1,24,2,0,3,NO
+Class,net.sf.mpxj.sdef.ConstraintTypeField,1,0,2,0,6,0,2,27,2,0,3,NO
+Class,net.sf.mpxj.sdef.Context,4,0,6,3,6,0,6,34,1,55,6,NO
+Class,net.sf.mpxj.sdef.DateField,0,0,2,0,6,0,2,35,2,0,4,NO
+Class,net.sf.mpxj.sdef.DoubleField,0,0,2,0,6,0,2,28,2,0,4,NO
+Class,net.sf.mpxj.sdef.DurationField,2,0,2,0,8,0,2,21,3,0,3,NO
+Class,net.sf.mpxj.sdef.HolidayRecord,5,0,2,0,11,0,1,41,2,0,5,NO
+Class,net.sf.mpxj.sdef.IntegerField,0,1,2,0,6,0,2,28,2,0,4,NO
+Class,net.sf.mpxj.sdef.PrecedenceRecord,8,0,2,0,11,0,1,24,2,0,3,NO
+Class,net.sf.mpxj.sdef.ProgressRecord,10,0,2,0,11,0,1,70,2,0,8,NO
+Class,net.sf.mpxj.sdef.ProjectRecord,6,0,2,0,11,0,1,29,2,0,2,NO
+Class,net.sf.mpxj.sdef.RelationTypeField,1,0,2,0,6,0,2,28,2,0,3,NO
+Class,net.sf.mpxj.sdef.SDEFmethods,3,0,0,0,3,0,3,80,1,0,13,NO
+Public Class,net.sf.mpxj.sdef.SDEFReader,16,0,3,0,11,1,2,76,3,0,8,NO
+Public Class,net.sf.mpxj.sdef.SDEFWriter,14,0,13,8,15,12,1,259,2,63,35,NO
+Class,net.sf.mpxj.sdef.StringField,0,5,4,2,4,0,4,31,1,37,5,NO
+Class,net.sf.mpxj.sdef.UnitCostRecord,4,0,2,0,11,0,1,18,2,0,2,NO
+Class,net.sf.mpxj.sdef.VolumeRecord,3,0,2,0,11,0,1,14,2,0,2,NO
+Public Class,net.sf.mpxj.SubProject,0,0,16,7,16,0,16,74,1,83,16,NO
+Public Class,net.sf.mpxj.SubProjectContainer,1,0,2,1,12,0,2,12,3,0,2,NO
+Abstract Class,net.sf.mpxj.synchro.BlockReader,2,2,3,1,3,0,2,24,1,0,4,NO
+Class,net.sf.mpxj.synchro.BytesReadInputStream,0,0,3,2,3,0,3,18,2,33,3,NO
+Class,net.sf.mpxj.synchro.CalendarDetailReader,1,0,4,0,13,0,1,21,2,0,4,NO
+Class,net.sf.mpxj.synchro.CalendarReader,4,0,5,1,14,0,2,37,2,60,5,NO
+Class,net.sf.mpxj.synchro.CommentaryReader,3,0,4,0,13,0,1,26,2,0,5,NO
+Class,net.sf.mpxj.synchro.CompanyReader,4,0,3,0,12,0,1,27,2,0,4,NO
+Class,net.sf.mpxj.synchro.CostReader,3,0,3,0,12,0,1,17,2,0,4,NO
+Class,net.sf.mpxj.synchro.DayTypeAssignmentReader,3,0,4,0,13,0,1,23,2,0,5,NO
+Class,net.sf.mpxj.synchro.DayTypeReader,2,0,4,0,13,0,1,24,2,0,4,NO
+Class,net.sf.mpxj.synchro.PredecessorReader,5,0,4,0,13,1,1,68,2,0,8,NO
+Class,net.sf.mpxj.synchro.ResourceAssignmentReader,3,0,3,0,12,0,1,30,2,0,4,NO
+Class,net.sf.mpxj.synchro.ResourceReader,5,0,3,0,12,0,1,35,2,0,5,NO
+Class,net.sf.mpxj.synchro.StreamReader,8,0,22,2,22,0,22,135,1,59,26,NO
+Class,net.sf.mpxj.synchro.Synchro,1,0,0,0,0,0,0,6,1,0,0,NO
+Class,net.sf.mpxj.synchro.SynchroData,8,0,9,3,9,6,3,147,1,66,22,NO
+Class,net.sf.mpxj.synchro.SynchroLogger,3,0,1,0,8,1,7,72,1,12,15,NO
+Public Class,net.sf.mpxj.synchro.SynchroReader,31,0,23,7,31,21,2,416,3,80,69,NO
+Class,net.sf.mpxj.synchro.SynchroTable,0,0,6,3,6,0,6,31,1,50,6,NO
+Abstract Class,net.sf.mpxj.synchro.TableReader,7,13,9,2,9,0,3,97,1,64,18,NO
+Class,net.sf.mpxj.synchro.TaskReader,7,0,3,0,12,0,1,71,2,0,3,NO
+Class,net.sf.mpxj.synchro.TimeRangeBlockReader,1,0,2,0,5,0,1,14,2,0,2,NO
+Class,net.sf.mpxj.synchro.UnknownBlockReader,1,0,3,1,6,0,2,24,2,33,4,NO
+Class,net.sf.mpxj.synchro.UnknownTableReader,1,0,5,2,14,0,2,31,2,60,6,NO
+Class,net.sf.mpxj.synchro.UserFieldReader,3,0,12,0,21,8,1,107,2,0,19,NO
+Public Class,net.sf.mpxj.Table,1,0,9,4,9,0,9,58,1,66,10,NO
+Public Class,net.sf.mpxj.TableContainer,1,0,5,2,15,1,2,34,3,60,6,NO
+Public Class,net.sf.mpxj.TimephasedCost,0,0,0,0,13,0,0,3,2,0,0,NO
+Public Class,net.sf.mpxj.TimephasedWork,1,0,3,0,16,0,3,23,2,0,3,NO
+Class,net.sf.mpxj.turboproject.MapRow,3,0,8,1,8,0,8,42,1,75,9,NO
+Class,net.sf.mpxj.turboproject.PEPUtility,1,0,0,0,6,0,6,73,1,0,12,NO
+Class,net.sf.mpxj.turboproject.Table,3,11,5,1,5,0,3,34,1,40,6,NO
+Class,net.sf.mpxj.turboproject.TableA0TAB,0,0,1,0,6,0,0,10,2,0,1,NO
+Class,net.sf.mpxj.turboproject.TableA1TAB,1,0,1,0,6,0,0,15,2,0,1,NO
+Class,net.sf.mpxj.turboproject.TableA2TAB,1,0,1,0,6,0,0,11,2,0,1,NO
+Class,net.sf.mpxj.turboproject.TableA3TAB,1,0,1,0,6,0,0,14,2,0,1,NO
+Class,net.sf.mpxj.turboproject.TableA5TAB,3,0,1,0,6,0,0,23,2,0,2,NO
+Class,net.sf.mpxj.turboproject.TableCALXTAB,1,0,1,0,6,0,0,15,2,0,2,NO
+Class,net.sf.mpxj.turboproject.TableCONTAB,4,0,2,0,7,1,0,37,2,0,5,NO
+Class,net.sf.mpxj.turboproject.TableNCALTAB,1,0,1,0,6,0,0,23,2,0,2,NO
+Class,net.sf.mpxj.turboproject.TableRTAB,1,0,1,1,6,0,0,27,2,0,2,NO
+Class,net.sf.mpxj.turboproject.TableUSGTAB,1,0,1,0,6,0,0,14,2,0,2,NO
+Class,net.sf.mpxj.turboproject.TableWBSTAB,1,0,1,0,6,0,0,16,2,0,2,NO
+Public Class,net.sf.mpxj.utility.DataExportUtility,1,0,4,0,5,3,2,233,1,0,35,NO
+Public Class,net.sf.mpxj.utility.ProjectCleanUtility,10,0,10,2,11,10,1,283,1,81,38,NO
+Public Class,net.sf.mpxj.utility.TimephasedUtility,11,0,11,0,11,7,4,215,1,0,38,NO
+Public Class,net.sf.mpxj.utility.TimescaleUtility,3,0,3,1,3,0,3,118,1,0,14,NO
+Public Class,net.sf.mpxj.ViewContainer,1,0,2,1,12,0,2,12,3,0,2,NO
+Public Class,net.sf.mpxj.ViewState,3,0,4,4,4,0,4,26,1,50,4,NO
+Public Abstract Class,net.sf.mpxj.writer.AbstractProjectWriter,1,6,2,0,2,0,2,17,1,0,2,NO
+Public Class,net.sf.mpxj.writer.ProjectWriterUtility,7,0,1,0,3,1,2,36,1,0,5,NO
